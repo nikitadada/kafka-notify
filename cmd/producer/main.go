@@ -118,7 +118,6 @@ func setupProducer() (sarama.SyncProducer, error) {
 }
 
 func main() {
-	println("asdf")
 	users := []models.User{
 		{ID: 1, Name: "Emma"},
 		{ID: 2, Name: "Bruno"},
